@@ -8,8 +8,8 @@ JupyterLab is a web-based interactive development environment for Jupyter notebo
 Deploying Jupyter Notebooks is easy. [mybinder.org](http://mybinder.org) provides you with a free service that turns a Github repository into a collection of interactive notebooks that are accessible online.
 BY default, Binder will start a Jupyter Notebook environment. You can switch to JuypterLab by appending `?urlpath=lab` to the URL.
 
-To launch JupyterLab environment for this tutorial, go to: https://mybinder.org/v2/gh/JKU-ICG/python-visualization-tutorial/master?urlpath=lab
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKU-ICG/python-visualization-tutorial/master?urlpath=lab)
+To launch JupyterLab environment for this tutorial, go to: https://mybinder.org/v2/gh/keckelt/python-visualization-tutorial/master?urlpath=lab
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/keckelt/python-visualization-tutorial/master?urlpath=lab)
 
 MyBinder installs the dependencies specified inside of the `requirements.txt` for you. We also add an extension to JupyterLab in the `postBuild` script file.
 
@@ -50,7 +50,7 @@ conda env remove --name test_env                    ... remove an environment fr
 ### Start
 Checkout this repo and change into the folder:
 ```
-git clone https://github.com/JKU-ICG/python-visualization-tutorial.git
+git clone https://github.com/keckelt/python-visualization-tutorial.git
 cd python-visualization-tutorial/
 ```
 

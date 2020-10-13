@@ -1,2 +1,1 @@
-jupyter labextension install @jupyter-widgets/jupyterlab-manager --minimize=False
 jupyter labextension install github:richardwolfmayr/jupyterlab_nbprovenance#a028b95e6b43c082fc956b3ddfa47f0d9d2c342c
